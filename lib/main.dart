@@ -184,13 +184,13 @@ class TimeTrackerHomePageState extends State<TimeTrackerHomePage> with SingleTic
               const SizedBox(height: 20),
               ElevatedButton(
                 onPressed: calculateWorkHours,
-                child: const Text('Calculate'),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.deepPurple,
                   foregroundColor: Colors.white,
                   padding: const EdgeInsets.symmetric(vertical: 16),
                   textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
+                child: const Text('Calculate'),
               ),
               const SizedBox(height: 30),
               FadeTransition(
